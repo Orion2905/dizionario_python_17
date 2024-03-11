@@ -9,6 +9,7 @@ meme_dict = {
     "squad": "Un gruppo di amici stretti o persone con cui si ha un forte legame.",
 }
 
+# Ciclo for
 for i in range(5):
     parola = input("Scrivi una parola che non capisci:").lower()
     if parola in meme_dict.keys():
